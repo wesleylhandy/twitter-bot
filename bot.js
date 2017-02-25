@@ -19,19 +19,16 @@ var delay;
 
 //listen on twitter stream for new follows
 
-stream.on('follow', followed);
-
-function followed (event) {
+stream.on('follow', function (event) {
 	console.log("New Follow");
 	var name = event.source.name;
 	var screen_name = event.source.screen_name;
 	var newTweet = {status: `@${screen_name} Thank you for following me! Are you into coding too? This is a #nodejsautoreply`};
 	delay = setTimeout(postTweet(newTweet), 4000);
-}
+});
 
-stream.on('tweet', tweeted);
-
-function tweeted (event) {
+stream.on('tweet', function (event) {
+	
 	console.log("New Tweet");
 	var data = JSON.stringify(data, null, 5);
 	fs.writeFile('botlog.txt', data, (err)=>{
@@ -50,7 +47,7 @@ function tweeted (event) {
 		var newTweet = {status: `@${from} Thank you for tweeting me! This is a #nodejsautoreply`}
 		delay = setTimeout(postTweet(newTweet), 4000);
 	}
-}
+});
   
 stream.on('error', function(error) {
 	console.log("Stream" + error);
