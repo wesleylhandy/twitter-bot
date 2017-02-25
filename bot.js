@@ -6,7 +6,7 @@ var client = new Twitter(config.twitterKeys);
 var stream = client.stream("user");
 
 function postTweet(tweet) {
-	client.post('statuses/update', tweet, function (error, tweet, response) {
+	client.post('statuses/update', tweet, function(error, data, response) {
 		if (err) {
 			console.log("Something went Wrong!");
 		} else {
@@ -23,15 +23,19 @@ stream.on('follow', function (event) {
 	console.log("New Follow");
 	var name = event.source.name;
 	var screen_name = event.source.screen_name;
+	console.log(`${name} @${screen_name} followed me.`);
 	var newTweet = {status: `@${screen_name} Thank you for following me! Are you into coding too? This is a #nodejsautoreply`};
-	delay = setTimeout(postTweet(newTweet), 4000);
+	function send() {
+		postTweet(newTweet);
+	}
+	delay = setTimeout(send, 4000);
 });
 
 stream.on('tweet', function (event) {
 	
 	console.log("New Tweet");
 	var data = JSON.stringify(event, null, 5);
-	fs.writeFile('botlog.txt', data, (err)=>{
+	fs.writeFile('botlog.txt', data, function(err){
 		if (err){
 			console.log("error occurred writing file: " + err);
 		}	
@@ -45,7 +49,10 @@ stream.on('tweet', function (event) {
 
 	if(replyto == "wesleylhandy") {
 		var newTweet = {status: `@${from} Thank you for tweeting me! This is a #nodejsautoreply`}
-		delay = setTimeout(postTweet(newTweet), 4000);
+		function send() {
+			postTweet(newTweet);
+		}
+		delay = setTimeout(send, 4000);
 	}
 });
   

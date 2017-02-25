@@ -1,1 +1,405 @@
-undefined
+{
+     "created_at": "Sat Feb 25 01:41:52 +0000 2017",
+     "id": 835303769671790600,
+     "id_str": "835303769671790596",
+     "text": "RT @VINAY_SFDC: Looking forward to present at first event of Rajasthan #Salesforce User group.\nThanks @yogeshsfdc for the invite!… ",
+     "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+     "truncated": false,
+     "in_reply_to_status_id": null,
+     "in_reply_to_status_id_str": null,
+     "in_reply_to_user_id": null,
+     "in_reply_to_user_id_str": null,
+     "in_reply_to_screen_name": null,
+     "user": {
+          "id": 58560915,
+          "id_str": "58560915",
+          "name": "Daniel Peter",
+          "screen_name": "danieljpeter",
+          "location": "Foster City, CA",
+          "url": "http://macgyverforce.com",
+          "description": "Salesforce MVP | Bay Area #Salesforce Developer Group Leader | http://salesforce.com MacGyver | 22x SFDC certified | Lead Engineer @kenandy | ❤️ @salesforce",
+          "protected": false,
+          "verified": false,
+          "followers_count": 21384,
+          "friends_count": 15605,
+          "listed_count": 760,
+          "favourites_count": 75455,
+          "statuses_count": 17887,
+          "created_at": "Mon Jul 20 19:14:05 +0000 2009",
+          "utc_offset": -28800,
+          "time_zone": "Pacific Time (US & Canada)",
+          "geo_enabled": true,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "profile_background_color": "131516",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+          "profile_background_tile": true,
+          "profile_link_color": "009999",
+          "profile_sidebar_border_color": "EEEEEE",
+          "profile_sidebar_fill_color": "EFEFEF",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/785335259814440960/OSdZN3yz_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/785335259814440960/OSdZN3yz_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/58560915/1485979508",
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null
+     },
+     "geo": null,
+     "coordinates": null,
+     "place": null,
+     "contributors": null,
+     "retweeted_status": {
+          "created_at": "Fri Feb 24 18:11:34 +0000 2017",
+          "id": 835190448826150900,
+          "id_str": "835190448826150912",
+          "text": "Looking forward to present at first event of Rajasthan #Salesforce User group.\nThanks @yogeshsfdc for the invite!… https://t.co/2Sn1qkrTfq",
+          "display_text_range": [
+               0,
+               140
+          ],
+          "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+          "truncated": true,
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+               "id": 720290462,
+               "id_str": "720290462",
+               "name": "Vinay Chaturvedi ☁",
+               "screen_name": "VINAY_SFDC",
+               "location": "Noida, India",
+               "url": "http://www.vinaychaturvedi.com",
+               "description": "@Salesforce MVP | 5*Certified | Blogger | @SFDC_UG_Noida & @SFDC4Students Leader | Principal Consultant @dazeworks | SFCommunity Profile - https://t.co/MTZq9Cwrya",
+               "protected": false,
+               "verified": false,
+               "followers_count": 2996,
+               "friends_count": 1728,
+               "listed_count": 207,
+               "favourites_count": 7710,
+               "statuses_count": 6604,
+               "created_at": "Fri Jul 27 14:52:17 +0000 2012",
+               "utc_offset": -25200,
+               "time_zone": "Arizona",
+               "geo_enabled": true,
+               "lang": "en",
+               "contributors_enabled": false,
+               "is_translator": false,
+               "profile_background_color": "000000",
+               "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+               "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+               "profile_background_tile": false,
+               "profile_link_color": "3B94D9",
+               "profile_sidebar_border_color": "000000",
+               "profile_sidebar_fill_color": "000000",
+               "profile_text_color": "000000",
+               "profile_use_background_image": false,
+               "profile_image_url": "http://pbs.twimg.com/profile_images/786893856881147906/38xcMQs4_normal.jpg",
+               "profile_image_url_https": "https://pbs.twimg.com/profile_images/786893856881147906/38xcMQs4_normal.jpg",
+               "profile_banner_url": "https://pbs.twimg.com/profile_banners/720290462/1477336124",
+               "default_profile": false,
+               "default_profile_image": false,
+               "following": null,
+               "follow_request_sent": null,
+               "notifications": null
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "extended_tweet": {
+               "full_text": "Looking forward to present at first event of Rajasthan #Salesforce User group.\nThanks @yogeshsfdc for the invite!\nhttps://t.co/nxkXvPw5n6 https://t.co/Jz1SkWeKRu",
+               "display_text_range": [
+                    0,
+                    137
+               ],
+               "entities": {
+                    "hashtags": [
+                         {
+                              "text": "Salesforce",
+                              "indices": [
+                                   55,
+                                   66
+                              ]
+                         }
+                    ],
+                    "urls": [
+                         {
+                              "url": "https://t.co/nxkXvPw5n6",
+                              "expanded_url": "http://events.salesforceusergroups.com/firstsalesforcerajasthanusergr",
+                              "display_url": "events.salesforceusergroups.com/firstsalesforc…",
+                              "indices": [
+                                   114,
+                                   137
+                              ]
+                         }
+                    ],
+                    "user_mentions": [
+                         {
+                              "screen_name": "yogeshsfdc",
+                              "name": "yogesh sharma",
+                              "id": 4766886272,
+                              "id_str": "4766886272",
+                              "indices": [
+                                   86,
+                                   97
+                              ]
+                         }
+                    ],
+                    "symbols": [],
+                    "media": [
+                         {
+                              "id": 835190406568534000,
+                              "id_str": "835190406568534016",
+                              "indices": [
+                                   138,
+                                   161
+                              ],
+                              "media_url": "http://pbs.twimg.com/media/C5cxP-9U4AAWAW6.jpg",
+                              "media_url_https": "https://pbs.twimg.com/media/C5cxP-9U4AAWAW6.jpg",
+                              "url": "https://t.co/Jz1SkWeKRu",
+                              "display_url": "pic.twitter.com/Jz1SkWeKRu",
+                              "expanded_url": "https://twitter.com/VINAY_SFDC/status/835190448826150912/photo/1",
+                              "type": "photo",
+                              "sizes": {
+                                   "small": {
+                                        "w": 595,
+                                        "h": 680,
+                                        "resize": "fit"
+                                   },
+                                   "thumb": {
+                                        "w": 150,
+                                        "h": 150,
+                                        "resize": "crop"
+                                   },
+                                   "medium": {
+                                        "w": 1040,
+                                        "h": 1189,
+                                        "resize": "fit"
+                                   },
+                                   "large": {
+                                        "w": 1040,
+                                        "h": 1189,
+                                        "resize": "fit"
+                                   }
+                              }
+                         },
+                         {
+                              "id": 835190422888599600,
+                              "id_str": "835190422888599552",
+                              "indices": [
+                                   138,
+                                   161
+                              ],
+                              "media_url": "http://pbs.twimg.com/media/C5cxQ7wVUAAlHt8.jpg",
+                              "media_url_https": "https://pbs.twimg.com/media/C5cxQ7wVUAAlHt8.jpg",
+                              "url": "https://t.co/Jz1SkWeKRu",
+                              "display_url": "pic.twitter.com/Jz1SkWeKRu",
+                              "expanded_url": "https://twitter.com/VINAY_SFDC/status/835190448826150912/photo/1",
+                              "type": "photo",
+                              "sizes": {
+                                   "small": {
+                                        "w": 434,
+                                        "h": 680,
+                                        "resize": "fit"
+                                   },
+                                   "large": {
+                                        "w": 1080,
+                                        "h": 1694,
+                                        "resize": "fit"
+                                   },
+                                   "thumb": {
+                                        "w": 150,
+                                        "h": 150,
+                                        "resize": "crop"
+                                   },
+                                   "medium": {
+                                        "w": 765,
+                                        "h": 1200,
+                                        "resize": "fit"
+                                   }
+                              }
+                         }
+                    ]
+               },
+               "extended_entities": {
+                    "media": [
+                         {
+                              "id": 835190406568534000,
+                              "id_str": "835190406568534016",
+                              "indices": [
+                                   138,
+                                   161
+                              ],
+                              "media_url": "http://pbs.twimg.com/media/C5cxP-9U4AAWAW6.jpg",
+                              "media_url_https": "https://pbs.twimg.com/media/C5cxP-9U4AAWAW6.jpg",
+                              "url": "https://t.co/Jz1SkWeKRu",
+                              "display_url": "pic.twitter.com/Jz1SkWeKRu",
+                              "expanded_url": "https://twitter.com/VINAY_SFDC/status/835190448826150912/photo/1",
+                              "type": "photo",
+                              "sizes": {
+                                   "small": {
+                                        "w": 595,
+                                        "h": 680,
+                                        "resize": "fit"
+                                   },
+                                   "thumb": {
+                                        "w": 150,
+                                        "h": 150,
+                                        "resize": "crop"
+                                   },
+                                   "medium": {
+                                        "w": 1040,
+                                        "h": 1189,
+                                        "resize": "fit"
+                                   },
+                                   "large": {
+                                        "w": 1040,
+                                        "h": 1189,
+                                        "resize": "fit"
+                                   }
+                              }
+                         },
+                         {
+                              "id": 835190422888599600,
+                              "id_str": "835190422888599552",
+                              "indices": [
+                                   138,
+                                   161
+                              ],
+                              "media_url": "http://pbs.twimg.com/media/C5cxQ7wVUAAlHt8.jpg",
+                              "media_url_https": "https://pbs.twimg.com/media/C5cxQ7wVUAAlHt8.jpg",
+                              "url": "https://t.co/Jz1SkWeKRu",
+                              "display_url": "pic.twitter.com/Jz1SkWeKRu",
+                              "expanded_url": "https://twitter.com/VINAY_SFDC/status/835190448826150912/photo/1",
+                              "type": "photo",
+                              "sizes": {
+                                   "small": {
+                                        "w": 434,
+                                        "h": 680,
+                                        "resize": "fit"
+                                   },
+                                   "large": {
+                                        "w": 1080,
+                                        "h": 1694,
+                                        "resize": "fit"
+                                   },
+                                   "thumb": {
+                                        "w": 150,
+                                        "h": 150,
+                                        "resize": "crop"
+                                   },
+                                   "medium": {
+                                        "w": 765,
+                                        "h": 1200,
+                                        "resize": "fit"
+                                   }
+                              }
+                         }
+                    ]
+               }
+          },
+          "retweet_count": 7,
+          "favorite_count": 10,
+          "entities": {
+               "hashtags": [
+                    {
+                         "text": "Salesforce",
+                         "indices": [
+                              55,
+                              66
+                         ]
+                    }
+               ],
+               "urls": [
+                    {
+                         "url": "https://t.co/2Sn1qkrTfq",
+                         "expanded_url": "https://twitter.com/i/web/status/835190448826150912",
+                         "display_url": "twitter.com/i/web/status/8…",
+                         "indices": [
+                              115,
+                              138
+                         ]
+                    }
+               ],
+               "user_mentions": [
+                    {
+                         "screen_name": "yogeshsfdc",
+                         "name": "yogesh sharma",
+                         "id": 4766886272,
+                         "id_str": "4766886272",
+                         "indices": [
+                              86,
+                              97
+                         ]
+                    }
+               ],
+               "symbols": []
+          },
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "filter_level": "low",
+          "lang": "en"
+     },
+     "is_quote_status": false,
+     "retweet_count": 0,
+     "favorite_count": 0,
+     "entities": {
+          "hashtags": [
+               {
+                    "text": "Salesforce",
+                    "indices": [
+                         71,
+                         82
+                    ]
+               }
+          ],
+          "urls": [
+               {
+                    "url": "",
+                    "expanded_url": null,
+                    "indices": [
+                         131,
+                         131
+                    ]
+               }
+          ],
+          "user_mentions": [
+               {
+                    "screen_name": "VINAY_SFDC",
+                    "name": "Vinay Chaturvedi ☁",
+                    "id": 720290462,
+                    "id_str": "720290462",
+                    "indices": [
+                         3,
+                         14
+                    ]
+               },
+               {
+                    "screen_name": "yogeshsfdc",
+                    "name": "yogesh sharma",
+                    "id": 4766886272,
+                    "id_str": "4766886272",
+                    "indices": [
+                         102,
+                         113
+                    ]
+               }
+          ],
+          "symbols": []
+     },
+     "favorited": false,
+     "retweeted": false,
+     "filter_level": "low",
+     "lang": "en",
+     "timestamp_ms": "1487986912540"
+}
