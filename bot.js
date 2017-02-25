@@ -5,7 +5,7 @@ const fs = require("fs");
 var client = new Twitter(config.twitterKeys);
 var stream = client.stream("user");
 
-const myId = 'wesleylhandy';
+const myId = 'WesleyLHandy';
 
 function postTweet(tweet) {
 	client.post('statuses/update', tweet, function(error, data, response) {
