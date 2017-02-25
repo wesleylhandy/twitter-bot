@@ -1,0 +1,24 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "A node.js bot designed to respond to new followers and mentions on a given account.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleylhandy/twitter-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleylhandy/twitter-bot/issues"
+  },
+  "homepage": "https://github.com/wesleylhandy/twitter-bot#readme",
+  "dependencies": {
+    "twit": "^2.2.5",
+    "twitter": "^1.7.0"
+  }
+}
