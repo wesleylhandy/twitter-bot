@@ -30,7 +30,7 @@ stream.on('follow', function (event) {
 stream.on('tweet', function (event) {
 	
 	console.log("New Tweet");
-	var data = JSON.stringify(data, null, 5);
+	var data = JSON.stringify(event, null, 5);
 	fs.writeFile('botlog.txt', data, (err)=>{
 		if (err){
 			console.log("error occurred writing file: " + err);
