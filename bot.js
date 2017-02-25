@@ -5,10 +5,12 @@ const fs = require("fs");
 var client = new Twitter(config.twitterKeys);
 var stream = client.stream("user");
 
+const myId = 'wesleylhandy';
+
 function postTweet(tweet) {
 	client.post('statuses/update', tweet, function(error, data, response) {
-		if (err) {
-			console.log("Something went Wrong!");
+		if (error) {
+			console.log("Something went Wrong! " + error);
 		} else {
 			console.log("Tweet Posted Successfully");
 		}
@@ -23,12 +25,14 @@ stream.on('follow', function (event) {
 	console.log("New Follow");
 	var name = event.source.name;
 	var screen_name = event.source.screen_name;
-	console.log(`${name} @${screen_name} followed me.`);
-	var newTweet = {status: `@${screen_name} Thank you for following me! Are you into coding too? This is a #nodejsautoreply`};
-	function send() {
-		postTweet(newTweet);
+	if (screen_name != myId) {
+		console.log(`${name} @${screen_name} followed me.`);
+		var newTweet = {status: `@${screen_name} Thank you for following me! Are you into coding too? This is a #nodejsautoreply`};
+		function send() {
+			postTweet(newTweet);
+		}
+		delay = setTimeout(send, 4000);
 	}
-	delay = setTimeout(send, 4000);
 });
 
 stream.on('tweet', function (event) {
@@ -47,7 +51,7 @@ stream.on('tweet', function (event) {
 
 	console.log(`${from} tweeted to your stream this message: ${tweetText}`);
 
-	if(replyto == "wesleylhandy") {
+	if(replyto == myId) {
 		var newTweet = {status: `@${from} Thank you for tweeting me! This is a #nodejsautoreply`}
 		function send() {
 			postTweet(newTweet);
