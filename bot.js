@@ -20,14 +20,14 @@ function postTweet(tweet) {
 var delay;
 
 //listen on twitter stream for new follows
-
+//responds with a tweet
 stream.on('follow', function (event) {
 	console.log("New Follow");
 	var name = event.source.name;
 	var screen_name = event.source.screen_name;
 	if (screen_name != myId) {
 		console.log(`${name} @${screen_name} followed me.`);
-		var newTweet = {status: `@${screen_name} Thank you for following me! Are you into coding too? This is a #nodejsautoreply`};
+		var newTweet = {status: `@${screen_name} Thank you for following me! Are you into coding too? This is a #nodejs #autoreply`};
 		function send() {
 			postTweet(newTweet);
 		}
@@ -35,6 +35,7 @@ stream.on('follow', function (event) {
 	}
 });
 
+//listens for replies to my tweets and thanks user for the reply
 stream.on('tweet', function (event) {
 	
 	console.log("New Tweet");
@@ -52,7 +53,27 @@ stream.on('tweet', function (event) {
 	console.log(`${from} tweeted to your stream this message: ${tweetText}`);
 
 	if(replyto == myId) {
-		var newTweet = {status: `@${from} Thank you for tweeting me! This is a #nodejsautoreply`}
+		var newTweet = {status: `@${from} Thank you for tweeting me! This is a #nodejs #autoreply`}
+		function send() {
+			postTweet(newTweet);
+		}
+		delay = setTimeout(send, 4000);
+	}
+});
+
+//listens for when one of my tweets or quotes is favorited and responds with a thanks
+stream.on('favorite', function (event) {
+  	//...
+  	console.log("New Favorite");
+  	var from = event.source.screen_name;
+	var target_user = event.target_object.user.screen_name;
+	var target_id = event.target_object.id;
+	console.log(`Favorite By ${from} on ${target_id}`);
+
+  	fs.writeFile("favorite.txt", JSON.stringify(event,null,5), (err)=> {if(err){console.log(err)}});
+  	
+  	if(target_id == myId & from != myId) {
+		var newTweet = {status: `@${from} Thank you for liking my tweet! This is a #nodejs #autoreply`}
 		function send() {
 			postTweet(newTweet);
 		}
