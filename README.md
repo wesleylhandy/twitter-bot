@@ -23,4 +23,4 @@ exports.twitterKeys = {
 
 ### What does it do?
 
-This bot is programmed to automatically tweet a thank you message to anyone who adds you as a follower (be sure to change your response message in the `bots.js` file) or to automatically reply to any those who reply to one of your messages. **TODO: add functionality for automatically thanking users for RTs.**
+This bot is programmed to automatically tweet a thank you message to anyone who adds you as a follower (be sure to change your response message in the `bots.js` file), to automatically reply to any those who reply to one of your messages, or to automatically thank those who favorite one of your tweets. **TODO: add functionality for automatically thanking users for RTs, quotes or other mentions.**
