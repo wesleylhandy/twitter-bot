@@ -72,7 +72,7 @@ stream.on('favorite', function (event) {
 
   	fs.writeFile("favorite.txt", JSON.stringify(event,null,5), (err)=> {if(err){console.log(err)}});
   	
-  	if(target_id == myId & from != myId) {
+  	if(target_id == myId && from != myId) {
 		var newTweet = {status: `@${from} Thank you for liking my tweet! This is a #nodejs #autoreply`}
 		function send() {
 			postTweet(newTweet);
