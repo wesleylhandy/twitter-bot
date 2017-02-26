@@ -21,13 +21,60 @@ var delay;
 
 //listen on twitter stream for new follows
 
-stream.on('follow', function (event) {
-	console.log("New Follow");
-	var name = event.source.name;
-	var screen_name = event.source.screen_name;
-	if (screen_name != myId) {
-		console.log(`${name} @${screen_name} followed me.`);
-		var newTweet = {status: `@${screen_name} Thank you for following me! Are you into coding too? This is a #nodejsautoreply`};
+// stream.on('follow', function (event) {
+// 	console.log("New Follow");
+// 	var name = event.source.name;
+// 	var screen_name = event.source.screen_name;
+// 	if (screen_name != myId) {
+// 		console.log(`${name} @${screen_name} followed me.`);
+// 		var newTweet = {status: `@${screen_name} Thank you for following me! Are you into coding too? This is a #nodejsautoreply`};
+// 		function send() {
+// 			postTweet(newTweet);
+// 		}
+// 		delay = setTimeout(send, 4000);
+// 	}
+// });
+
+// stream.on('tweet', function (event) {
+	
+// 	console.log("New Tweet");
+// 	var data = JSON.stringify(event, null, 5);
+// 	fs.writeFile('botlog.txt', data, function(err){
+// 		if (err){
+// 			console.log("error occurred writing file: " + err);
+// 		}	
+// 	});
+
+// 	var replyto = event.in_reply_to_screen_name;
+// 	var tweetText = event.text;
+// 	var from = event.user.screen_name;
+
+// 	if (tweetText.includes("@WesleyLHandy")) {
+// 		fs.writeFile('botlog.txt', event, (err)=> {if (err){console.log(err);}});
+// 		console.log(event);
+// 	}
+
+// 	console.log(`${from} tweeted to your stream this message: ${tweetText}`);
+
+// 	if(replyto == myId) {
+// 		var newTweet = {status: `@${from} Thank you for tweeting me! This is a #nodejs #autoreply`}
+// 		function send() {
+// 			postTweet(newTweet);
+// 		}
+// 		delay = setTimeout(send, 4000);
+// 	}
+// });
+
+stream.on('favorite', function (event) {
+  	//...
+  	console.log("Favorite Event");
+  	var from = event.source.screen_name;
+	var target_user = event.target_object.user.screen_name;
+	var target_id = event.target_object.id;
+	console.log(`Favorite By ${from} on ${target_id}`);
+  	fs.writeFile("favorite.txt", JSON.stringify(event,null,5), (err)=> {if(err){console.log(err)}});
+  	if(target_id == myId & from != myId) {
+		var newTweet = {status: `@${from} Thank you for liking my tweet! This is a #nodejs #autoreply`}
 		function send() {
 			postTweet(newTweet);
 		}
@@ -35,29 +82,19 @@ stream.on('follow', function (event) {
 	}
 });
 
-stream.on('tweet', function (event) {
-	
-	console.log("New Tweet");
-	var data = JSON.stringify(event, null, 5);
-	fs.writeFile('botlog.txt', data, function(err){
-		if (err){
-			console.log("error occurred writing file: " + err);
-		}	
-	});
+stream.on('quoted_tweet', function (event) {
+	console.log("Quote Event");
+	var from = event.source.screen_name;
+	var target_user = event.target.user.screen_name;
+	var target_id = event.target_object.quoted_status_id;
+	console.log(`Quoted By ${from} on ${target_id}`);
+	fs.writeFile("quote.txt", JSON.stringify(event, null, 5), (err)=> {if(err){console.log(err)}});
+});
 
-	var replyto = event.in_reply_to_screen_name;
-	var tweetText = event.text;
-	var from = event.user.screen_name;
-
-	console.log(`${from} tweeted to your stream this message: ${tweetText}`);
-
-	if(replyto == myId) {
-		var newTweet = {status: `@${from} Thank you for tweeting me! This is a #nodejsautoreply`}
-		function send() {
-			postTweet(newTweet);
-		}
-		delay = setTimeout(send, 4000);
-	}
+stream.on('retweeted_retweet', function(event) {
+	console.log("RT Event");
+	console.log(event);
+	fs.writeFile("rt.txt", JSON.stringify(event,null, 5), (err)=> {if(err){console.log(err)}});
 });
   
 stream.on('error', function(error) {
