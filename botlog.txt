@@ -1,9 +1,9 @@
 {
-     "created_at": "Sat Feb 25 20:22:23 +0000 2017",
-     "id": 835585757351981000,
-     "id_str": "835585757351981057",
-     "text": "Just saw it myself! Thanks, Brian!\nhttps://t.co/jbIURwlkur",
-     "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+     "created_at": "Tue Feb 28 17:14:22 +0000 2017",
+     "id": 836625602765541400,
+     "id_str": "836625602765541377",
+     "text": "RT @eggheadio: Debug Function Compositions with Ramda's Tap Function - #JavaScript lesson by @avanslaars #free #new https://t.co/t0fBNRUJCk",
+     "source": "<a href=\"http://www.blaccspot.com\" rel=\"nofollow\">JavaScript Digest</a>",
      "truncated": false,
      "in_reply_to_status_id": null,
      "in_reply_to_status_id_str": null,
@@ -11,38 +11,38 @@
      "in_reply_to_user_id_str": null,
      "in_reply_to_screen_name": null,
      "user": {
-          "id": 221898261,
-          "id_str": "221898261",
-          "name": "Lee Strobel",
-          "screen_name": "LeeStrobel",
-          "location": "United States",
-          "url": "http://www.LeeStrobel.com",
-          "description": "Follower of Jesus. Author of 20+ books, including The Case for Christ. Professor at Houston Baptist University & teaching pastor at Woodlands Church.",
+          "id": 2542640070,
+          "id_str": "2542640070",
+          "name": "JavaScript Digest",
+          "screen_name": "js_digest",
+          "location": "Atlanta, Ga",
+          "url": "http://www.blaccspot.com",
+          "description": "All things JavaScript brought to you by the team @blaccspotmedia.",
           "protected": false,
-          "verified": true,
-          "followers_count": 150462,
-          "friends_count": 6973,
-          "listed_count": 2198,
-          "favourites_count": 2112,
-          "statuses_count": 16040,
-          "created_at": "Wed Dec 01 22:43:45 +0000 2010",
-          "utc_offset": -28800,
-          "time_zone": "Pacific Time (US & Canada)",
-          "geo_enabled": true,
+          "verified": false,
+          "followers_count": 21200,
+          "friends_count": 68,
+          "listed_count": 2707,
+          "favourites_count": 0,
+          "statuses_count": 528358,
+          "created_at": "Tue Jun 03 03:03:38 +0000 2014",
+          "utc_offset": -18000,
+          "time_zone": "Eastern Time (US & Canada)",
+          "geo_enabled": false,
           "lang": "en",
           "contributors_enabled": false,
           "is_translator": false,
-          "profile_background_color": "000000",
+          "profile_background_color": "C0DEED",
           "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
           "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
           "profile_background_tile": false,
-          "profile_link_color": "0083B3",
-          "profile_sidebar_border_color": "000000",
-          "profile_sidebar_fill_color": "000000",
-          "profile_text_color": "000000",
-          "profile_use_background_image": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/1720475570/strobel_2-3_normal.jpeg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1720475570/strobel_2-3_normal.jpeg",
+          "profile_link_color": "3686A3",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/656530942945656832/ITS9VX4U_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/656530942945656832/ITS9VX4U_normal.jpg",
           "default_profile": false,
           "default_profile_image": false,
           "following": null,
@@ -53,14 +53,12 @@
      "coordinates": null,
      "place": null,
      "contributors": null,
-     "quoted_status_id": 835547381915652100,
-     "quoted_status_id_str": "835547381915652100",
-     "quoted_status": {
-          "created_at": "Sat Feb 25 17:49:54 +0000 2017",
-          "id": 835547381915652100,
-          "id_str": "835547381915652100",
-          "text": "Good piece in the AFA Journal on @TheCase4Christ and @LeeStrobel's remarkable true story. https://t.co/AZSBDcyXEG",
-          "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+     "retweeted_status": {
+          "created_at": "Tue Feb 28 17:08:08 +0000 2017",
+          "id": 836624037300351000,
+          "id_str": "836624037300350976",
+          "text": "Debug Function Compositions with Ramda's Tap Function - #JavaScript lesson by @avanslaars #free #new https://t.co/t0fBNRUJCk",
+          "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
           "truncated": false,
           "in_reply_to_status_id": null,
           "in_reply_to_status_id_str": null,
@@ -68,39 +66,39 @@
           "in_reply_to_user_id_str": null,
           "in_reply_to_screen_name": null,
           "user": {
-               "id": 17547338,
-               "id_str": "17547338",
-               "name": "Brian Bird",
-               "screen_name": "brbird",
-               "location": "ÜT: 33.754841,-118.016618",
-               "url": "http://www.brianbird.net",
-               "description": "Film scribe, producer, husband, father, chum, producer & writer of the movie @Captive, the original series @WCTH_TV & upcoming film @TheCase4Christ",
+               "id": 921398240,
+               "id_str": "921398240",
+               "name": "egghead.io",
+               "screen_name": "eggheadio",
+               "location": "at the computer",
+               "url": "http://egghead.io/lessons",
+               "description": "High quality, concise web development screencasts. Coding with expert open-source contributors.  Let’s make the web better. ❤️",
                "protected": false,
                "verified": false,
-               "followers_count": 7806,
-               "friends_count": 1399,
-               "listed_count": 133,
-               "favourites_count": 930,
-               "statuses_count": 14254,
-               "created_at": "Fri Nov 21 22:20:07 +0000 2008",
-               "utc_offset": -28800,
-               "time_zone": "Pacific Time (US & Canada)",
-               "geo_enabled": true,
+               "followers_count": 30746,
+               "friends_count": 72,
+               "listed_count": 1131,
+               "favourites_count": 622,
+               "statuses_count": 7015,
+               "created_at": "Fri Nov 02 17:03:39 +0000 2012",
+               "utc_offset": null,
+               "time_zone": null,
+               "geo_enabled": false,
                "lang": "en",
                "contributors_enabled": false,
                "is_translator": false,
-               "profile_background_color": "022330",
-               "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
-               "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+               "profile_background_color": "E6E9EB",
+               "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+               "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
                "profile_background_tile": false,
                "profile_link_color": "0084B4",
-               "profile_sidebar_border_color": "A8C7F7",
-               "profile_sidebar_fill_color": "C0DFEC",
+               "profile_sidebar_border_color": "FFFFFF",
+               "profile_sidebar_fill_color": "DDEEF6",
                "profile_text_color": "333333",
-               "profile_use_background_image": true,
-               "profile_image_url": "http://pbs.twimg.com/profile_images/508762208151420928/jclRrEqR_normal.jpeg",
-               "profile_image_url_https": "https://pbs.twimg.com/profile_images/508762208151420928/jclRrEqR_normal.jpeg",
-               "profile_banner_url": "https://pbs.twimg.com/profile_banners/17547338/1487443639",
+               "profile_use_background_image": false,
+               "profile_image_url": "http://pbs.twimg.com/profile_images/735242324293210112/H8YfgQHP_normal.jpg",
+               "profile_image_url_https": "https://pbs.twimg.com/profile_images/735242324293210112/H8YfgQHP_normal.jpg",
+               "profile_banner_url": "https://pbs.twimg.com/profile_banners/921398240/1475031293",
                "default_profile": false,
                "default_profile_image": false,
                "following": null,
@@ -112,40 +110,52 @@
           "place": null,
           "contributors": null,
           "is_quote_status": false,
-          "retweet_count": 2,
-          "favorite_count": 2,
+          "retweet_count": 1,
+          "favorite_count": 0,
           "entities": {
-               "hashtags": [],
-               "urls": [
+               "hashtags": [
                     {
-                         "url": "https://t.co/AZSBDcyXEG",
-                         "expanded_url": "https://afajournal.org/past-issues/2017/march/strobel-the-journalist-who-finally-got-the-story-straight/",
-                         "display_url": "afajournal.org/past-issues/20…",
+                         "text": "JavaScript",
+                         "indices": [
+                              56,
+                              67
+                         ]
+                    },
+                    {
+                         "text": "free",
                          "indices": [
                               90,
-                              113
+                              95
+                         ]
+                    },
+                    {
+                         "text": "new",
+                         "indices": [
+                              96,
+                              100
+                         ]
+                    }
+               ],
+               "urls": [
+                    {
+                         "url": "https://t.co/t0fBNRUJCk",
+                         "expanded_url": "http://bit.ly/2m33THd",
+                         "display_url": "bit.ly/2m33THd",
+                         "indices": [
+                              101,
+                              124
                          ]
                     }
                ],
                "user_mentions": [
                     {
-                         "screen_name": "TheCase4Christ",
-                         "name": "The Case For Christ",
-                         "id": 806232528835096600,
-                         "id_str": "806232528835096577",
+                         "screen_name": "avanslaars",
+                         "name": "Andrew Van Slaars",
+                         "id": 12322762,
+                         "id_str": "12322762",
                          "indices": [
-                              33,
-                              48
-                         ]
-                    },
-                    {
-                         "screen_name": "LeeStrobel",
-                         "name": "Lee Strobel",
-                         "id": 221898261,
-                         "id_str": "221898261",
-                         "indices": [
-                              53,
-                              64
+                              78,
+                              89
                          ]
                     }
                ],
@@ -157,23 +167,66 @@
           "filter_level": "low",
           "lang": "en"
      },
-     "is_quote_status": true,
+     "is_quote_status": false,
      "retweet_count": 0,
      "favorite_count": 0,
      "entities": {
-          "hashtags": [],
-          "urls": [
+          "hashtags": [
                {
-                    "url": "https://t.co/jbIURwlkur",
-                    "expanded_url": "https://twitter.com/brbird/status/835547381915652100",
-                    "display_url": "twitter.com/brbird/status/…",
+                    "text": "JavaScript",
                     "indices": [
-                         35,
-                         58
+                         71,
+                         82
+                    ]
+               },
+               {
+                    "text": "free",
+                    "indices": [
+                         105,
+                         110
+                    ]
+               },
+               {
+                    "text": "new",
+                    "indices": [
+                         111,
+                         115
                     ]
                }
           ],
-          "user_mentions": [],
+          "urls": [
+               {
+                    "url": "https://t.co/t0fBNRUJCk",
+                    "expanded_url": "http://bit.ly/2m33THd",
+                    "display_url": "bit.ly/2m33THd",
+                    "indices": [
+                         116,
+                         139
+                    ]
+               }
+          ],
+          "user_mentions": [
+               {
+                    "screen_name": "eggheadio",
+                    "name": "egghead.io",
+                    "id": 921398240,
+                    "id_str": "921398240",
+                    "indices": [
+                         3,
+                         13
+                    ]
+               },
+               {
+                    "screen_name": "avanslaars",
+                    "name": "Andrew Van Slaars",
+                    "id": 12322762,
+                    "id_str": "12322762",
+                    "indices": [
+                         93,
+                         104
+                    ]
+               }
+          ],
           "symbols": []
      },
      "favorited": false,
@@ -181,5 +234,5 @@
      "possibly_sensitive": false,
      "filter_level": "low",
      "lang": "en",
-     "timestamp_ms": "1488054143642"
+     "timestamp_ms": "1488302062108"
 }
