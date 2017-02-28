@@ -1,9 +1,9 @@
 {
-     "created_at": "Tue Feb 28 17:14:22 +0000 2017",
-     "id": 836625602765541400,
-     "id_str": "836625602765541377",
-     "text": "RT @eggheadio: Debug Function Compositions with Ramda's Tap Function - #JavaScript lesson by @avanslaars #free #new https://t.co/t0fBNRUJCk",
-     "source": "<a href=\"http://www.blaccspot.com\" rel=\"nofollow\">JavaScript Digest</a>",
+     "created_at": "Tue Feb 28 17:43:00 +0000 2017",
+     "id": 836632808714031100,
+     "id_str": "836632808714031108",
+     "text": "RT @EricMetaxasShow: In hour 2, film producer Steven Barber talking about his latest project!  More at https://t.co/06XyyZQZrv. https://t.c…",
+     "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
      "truncated": false,
      "in_reply_to_status_id": null,
      "in_reply_to_status_id_str": null,
@@ -11,38 +11,39 @@
      "in_reply_to_user_id_str": null,
      "in_reply_to_screen_name": null,
      "user": {
-          "id": 2542640070,
-          "id_str": "2542640070",
-          "name": "JavaScript Digest",
-          "screen_name": "js_digest",
-          "location": "Atlanta, Ga",
-          "url": "http://www.blaccspot.com",
-          "description": "All things JavaScript brought to you by the team @blaccspotmedia.",
+          "id": 105901883,
+          "id_str": "105901883",
+          "name": "Eric Metaxas",
+          "screen_name": "ericmetaxas",
+          "location": "NYC",
+          "url": "http://www.ericmetaxas.com",
+          "description": "Host of the @EricMetaxasShow (http://metaxastalk.com) & http://www.SocratesInTheCity.com; author of BONHOEFFER & IF YOU CAN KEEP IT; King's College, NYC",
           "protected": false,
-          "verified": false,
-          "followers_count": 21200,
-          "friends_count": 68,
-          "listed_count": 2707,
-          "favourites_count": 0,
-          "statuses_count": 528358,
-          "created_at": "Tue Jun 03 03:03:38 +0000 2014",
-          "utc_offset": -18000,
-          "time_zone": "Eastern Time (US & Canada)",
+          "verified": true,
+          "followers_count": 62177,
+          "friends_count": 319,
+          "listed_count": 1318,
+          "favourites_count": 36,
+          "statuses_count": 44643,
+          "created_at": "Sun Jan 17 21:50:23 +0000 2010",
+          "utc_offset": -21600,
+          "time_zone": "Central Time (US & Canada)",
           "geo_enabled": false,
           "lang": "en",
           "contributors_enabled": false,
           "is_translator": false,
           "profile_background_color": "C0DEED",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_tile": false,
-          "profile_link_color": "3686A3",
-          "profile_sidebar_border_color": "C0DEED",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/588182103323381760/Do6sfoqj.jpg",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/588182103323381760/Do6sfoqj.jpg",
+          "profile_background_tile": true,
+          "profile_link_color": "1B95E0",
+          "profile_sidebar_border_color": "FFFFFF",
           "profile_sidebar_fill_color": "DDEEF6",
           "profile_text_color": "333333",
           "profile_use_background_image": true,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/656530942945656832/ITS9VX4U_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/656530942945656832/ITS9VX4U_normal.jpg",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/807414195973193728/YtUXweRt_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/807414195973193728/YtUXweRt_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/105901883/1484017437",
           "default_profile": false,
           "default_profile_image": false,
           "following": null,
@@ -54,11 +55,15 @@
      "place": null,
      "contributors": null,
      "retweeted_status": {
-          "created_at": "Tue Feb 28 17:08:08 +0000 2017",
-          "id": 836624037300351000,
-          "id_str": "836624037300350976",
-          "text": "Debug Function Compositions with Ramda's Tap Function - #JavaScript lesson by @avanslaars #free #new https://t.co/t0fBNRUJCk",
-          "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+          "created_at": "Tue Feb 28 17:30:17 +0000 2017",
+          "id": 836629609739321300,
+          "id_str": "836629609739321345",
+          "text": "In hour 2, film producer Steven Barber talking about his latest project!  More at https://t.co/06XyyZQZrv. https://t.co/ruEEtLyx7K",
+          "display_text_range": [
+               0,
+               106
+          ],
+          "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
           "truncated": false,
           "in_reply_to_status_id": null,
           "in_reply_to_status_id_str": null,
@@ -66,39 +71,39 @@
           "in_reply_to_user_id_str": null,
           "in_reply_to_screen_name": null,
           "user": {
-               "id": 921398240,
-               "id_str": "921398240",
-               "name": "egghead.io",
-               "screen_name": "eggheadio",
-               "location": "at the computer",
-               "url": "http://egghead.io/lessons",
-               "description": "High quality, concise web development screencasts. Coding with expert open-source contributors.  Let’s make the web better. ❤️",
+               "id": 3063996106,
+               "id_str": "3063996106",
+               "name": "Eric Metaxas Show",
+               "screen_name": "EricMetaxasShow",
+               "location": "New York, NY",
+               "url": "http://metaxastalk.com",
+               "description": "Politics? Been there. Music? Done that. Filmmaking? Got you covered. It's the Show About Everything, airing 2-4pm Monday-Friday!",
                "protected": false,
                "verified": false,
-               "followers_count": 30746,
-               "friends_count": 72,
-               "listed_count": 1131,
-               "favourites_count": 622,
-               "statuses_count": 7015,
-               "created_at": "Fri Nov 02 17:03:39 +0000 2012",
-               "utc_offset": null,
-               "time_zone": null,
-               "geo_enabled": false,
+               "followers_count": 7763,
+               "friends_count": 2982,
+               "listed_count": 105,
+               "favourites_count": 2189,
+               "statuses_count": 4889,
+               "created_at": "Thu Feb 26 15:55:30 +0000 2015",
+               "utc_offset": -28800,
+               "time_zone": "Pacific Time (US & Canada)",
+               "geo_enabled": true,
                "lang": "en",
                "contributors_enabled": false,
                "is_translator": false,
-               "profile_background_color": "E6E9EB",
+               "profile_background_color": "000000",
                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
                "profile_background_tile": false,
-               "profile_link_color": "0084B4",
-               "profile_sidebar_border_color": "FFFFFF",
-               "profile_sidebar_fill_color": "DDEEF6",
-               "profile_text_color": "333333",
+               "profile_link_color": "3B94D9",
+               "profile_sidebar_border_color": "000000",
+               "profile_sidebar_fill_color": "000000",
+               "profile_text_color": "000000",
                "profile_use_background_image": false,
-               "profile_image_url": "http://pbs.twimg.com/profile_images/735242324293210112/H8YfgQHP_normal.jpg",
-               "profile_image_url_https": "https://pbs.twimg.com/profile_images/735242324293210112/H8YfgQHP_normal.jpg",
-               "profile_banner_url": "https://pbs.twimg.com/profile_banners/921398240/1475031293",
+               "profile_image_url": "http://pbs.twimg.com/profile_images/570975764292435968/XScfgNnW_normal.jpeg",
+               "profile_image_url_https": "https://pbs.twimg.com/profile_images/570975764292435968/XScfgNnW_normal.jpeg",
+               "profile_banner_url": "https://pbs.twimg.com/profile_banners/3063996106/1455731093",
                "default_profile": false,
                "default_profile_image": false,
                "following": null,
@@ -111,55 +116,100 @@
           "contributors": null,
           "is_quote_status": false,
           "retweet_count": 1,
-          "favorite_count": 0,
+          "favorite_count": 1,
           "entities": {
-               "hashtags": [
-                    {
-                         "text": "JavaScript",
-                         "indices": [
-                              56,
-                              67
-                         ]
-                    },
-                    {
-                         "text": "free",
-                         "indices": [
-                              90,
-                              95
-                         ]
-                    },
-                    {
-                         "text": "new",
-                         "indices": [
-                              96,
-                              100
-                         ]
-                    }
-               ],
+               "hashtags": [],
                "urls": [
                     {
-                         "url": "https://t.co/t0fBNRUJCk",
-                         "expanded_url": "http://bit.ly/2m33THd",
-                         "display_url": "bit.ly/2m33THd",
+                         "url": "https://t.co/06XyyZQZrv",
+                         "expanded_url": "http://WWW.VANILLAFIRE.COM",
+                         "display_url": "VANILLAFIRE.COM",
                          "indices": [
-                              101,
-                              124
+                              82,
+                              105
                          ]
                     }
                ],
-               "user_mentions": [
+               "user_mentions": [],
+               "symbols": [],
+               "media": [
                     {
-                         "screen_name": "avanslaars",
-                         "name": "Andrew Van Slaars",
-                         "id": 12322762,
-                         "id_str": "12322762",
+                         "id": 836629577766154200,
+                         "id_str": "836629577766154240",
                          "indices": [
-                              78,
-                              89
-                         ]
+                              107,
+                              130
+                         ],
+                         "media_url": "http://pbs.twimg.com/media/C5xOKxdWMAA8Y8g.jpg",
+                         "media_url_https": "https://pbs.twimg.com/media/C5xOKxdWMAA8Y8g.jpg",
+                         "url": "https://t.co/ruEEtLyx7K",
+                         "display_url": "pic.twitter.com/ruEEtLyx7K",
+                         "expanded_url": "https://twitter.com/EricMetaxasShow/status/836629609739321345/photo/1",
+                         "type": "photo",
+                         "sizes": {
+                              "large": {
+                                   "w": 480,
+                                   "h": 720,
+                                   "resize": "fit"
+                              },
+                              "thumb": {
+                                   "w": 150,
+                                   "h": 150,
+                                   "resize": "crop"
+                              },
+                              "medium": {
+                                   "w": 480,
+                                   "h": 720,
+                                   "resize": "fit"
+                              },
+                              "small": {
+                                   "w": 453,
+                                   "h": 680,
+                                   "resize": "fit"
+                              }
+                         }
                     }
-               ],
-               "symbols": []
+               ]
+          },
+          "extended_entities": {
+               "media": [
+                    {
+                         "id": 836629577766154200,
+                         "id_str": "836629577766154240",
+                         "indices": [
+                              107,
+                              130
+                         ],
+                         "media_url": "http://pbs.twimg.com/media/C5xOKxdWMAA8Y8g.jpg",
+                         "media_url_https": "https://pbs.twimg.com/media/C5xOKxdWMAA8Y8g.jpg",
+                         "url": "https://t.co/ruEEtLyx7K",
+                         "display_url": "pic.twitter.com/ruEEtLyx7K",
+                         "expanded_url": "https://twitter.com/EricMetaxasShow/status/836629609739321345/photo/1",
+                         "type": "photo",
+                         "sizes": {
+                              "large": {
+                                   "w": 480,
+                                   "h": 720,
+                                   "resize": "fit"
+                              },
+                              "thumb": {
+                                   "w": 150,
+                                   "h": 150,
+                                   "resize": "crop"
+                              },
+                              "medium": {
+                                   "w": 480,
+                                   "h": 720,
+                                   "resize": "fit"
+                              },
+                              "small": {
+                                   "w": 453,
+                                   "h": 680,
+                                   "resize": "fit"
+                              }
+                         }
+                    }
+               ]
           },
           "favorited": false,
           "retweeted": false,
@@ -171,59 +221,27 @@
      "retweet_count": 0,
      "favorite_count": 0,
      "entities": {
-          "hashtags": [
-               {
-                    "text": "JavaScript",
-                    "indices": [
-                         71,
-                         82
-                    ]
-               },
-               {
-                    "text": "free",
-                    "indices": [
-                         105,
-                         110
-                    ]
-               },
-               {
-                    "text": "new",
-                    "indices": [
-                         111,
-                         115
-                    ]
-               }
-          ],
+          "hashtags": [],
           "urls": [
                {
-                    "url": "https://t.co/t0fBNRUJCk",
-                    "expanded_url": "http://bit.ly/2m33THd",
-                    "display_url": "bit.ly/2m33THd",
+                    "url": "https://t.co/06XyyZQZrv",
+                    "expanded_url": "http://WWW.VANILLAFIRE.COM",
+                    "display_url": "VANILLAFIRE.COM",
                     "indices": [
-                         116,
-                         139
+                         103,
+                         126
                     ]
                }
           ],
           "user_mentions": [
                {
-                    "screen_name": "eggheadio",
-                    "name": "egghead.io",
-                    "id": 921398240,
-                    "id_str": "921398240",
+                    "screen_name": "EricMetaxasShow",
+                    "name": "Eric Metaxas Show",
+                    "id": 3063996106,
+                    "id_str": "3063996106",
                     "indices": [
                          3,
-                         13
-                    ]
-               },
-               {
-                    "screen_name": "avanslaars",
-                    "name": "Andrew Van Slaars",
-                    "id": 12322762,
-                    "id_str": "12322762",
-                    "indices": [
-                         93,
-                         104
+                         19
                     ]
                }
           ],
@@ -234,5 +252,5 @@
      "possibly_sensitive": false,
      "filter_level": "low",
      "lang": "en",
-     "timestamp_ms": "1488302062108"
+     "timestamp_ms": "1488303780140"
 }
