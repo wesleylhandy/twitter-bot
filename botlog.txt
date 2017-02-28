@@ -1,9 +1,9 @@
 {
-     "created_at": "Sat Feb 25 01:41:52 +0000 2017",
-     "id": 835303769671790600,
-     "id_str": "835303769671790596",
-     "text": "RT @VINAY_SFDC: Looking forward to present at first event of Rajasthan #Salesforce User group.\nThanks @yogeshsfdc for the invite!… ",
-     "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+     "created_at": "Tue Feb 28 17:43:00 +0000 2017",
+     "id": 836632808714031100,
+     "id_str": "836632808714031108",
+     "text": "RT @EricMetaxasShow: In hour 2, film producer Steven Barber talking about his latest project!  More at https://t.co/06XyyZQZrv. https://t.c…",
+     "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
      "truncated": false,
      "in_reply_to_status_id": null,
      "in_reply_to_status_id_str": null,
@@ -11,39 +11,39 @@
      "in_reply_to_user_id_str": null,
      "in_reply_to_screen_name": null,
      "user": {
-          "id": 58560915,
-          "id_str": "58560915",
-          "name": "Daniel Peter",
-          "screen_name": "danieljpeter",
-          "location": "Foster City, CA",
-          "url": "http://macgyverforce.com",
-          "description": "Salesforce MVP | Bay Area #Salesforce Developer Group Leader | http://salesforce.com MacGyver | 22x SFDC certified | Lead Engineer @kenandy | ❤️ @salesforce",
+          "id": 105901883,
+          "id_str": "105901883",
+          "name": "Eric Metaxas",
+          "screen_name": "ericmetaxas",
+          "location": "NYC",
+          "url": "http://www.ericmetaxas.com",
+          "description": "Host of the @EricMetaxasShow (http://metaxastalk.com) & http://www.SocratesInTheCity.com; author of BONHOEFFER & IF YOU CAN KEEP IT; King's College, NYC",
           "protected": false,
-          "verified": false,
-          "followers_count": 21384,
-          "friends_count": 15605,
-          "listed_count": 760,
-          "favourites_count": 75455,
-          "statuses_count": 17887,
-          "created_at": "Mon Jul 20 19:14:05 +0000 2009",
-          "utc_offset": -28800,
-          "time_zone": "Pacific Time (US & Canada)",
-          "geo_enabled": true,
+          "verified": true,
+          "followers_count": 62177,
+          "friends_count": 319,
+          "listed_count": 1318,
+          "favourites_count": 36,
+          "statuses_count": 44643,
+          "created_at": "Sun Jan 17 21:50:23 +0000 2010",
+          "utc_offset": -21600,
+          "time_zone": "Central Time (US & Canada)",
+          "geo_enabled": false,
           "lang": "en",
           "contributors_enabled": false,
           "is_translator": false,
-          "profile_background_color": "131516",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/588182103323381760/Do6sfoqj.jpg",
+          "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/588182103323381760/Do6sfoqj.jpg",
           "profile_background_tile": true,
-          "profile_link_color": "009999",
-          "profile_sidebar_border_color": "EEEEEE",
-          "profile_sidebar_fill_color": "EFEFEF",
+          "profile_link_color": "1B95E0",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "DDEEF6",
           "profile_text_color": "333333",
           "profile_use_background_image": true,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/785335259814440960/OSdZN3yz_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/785335259814440960/OSdZN3yz_normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/58560915/1485979508",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/807414195973193728/YtUXweRt_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/807414195973193728/YtUXweRt_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/105901883/1484017437",
           "default_profile": false,
           "default_profile_image": false,
           "following": null,
@@ -55,39 +55,39 @@
      "place": null,
      "contributors": null,
      "retweeted_status": {
-          "created_at": "Fri Feb 24 18:11:34 +0000 2017",
-          "id": 835190448826150900,
-          "id_str": "835190448826150912",
-          "text": "Looking forward to present at first event of Rajasthan #Salesforce User group.\nThanks @yogeshsfdc for the invite!… https://t.co/2Sn1qkrTfq",
+          "created_at": "Tue Feb 28 17:30:17 +0000 2017",
+          "id": 836629609739321300,
+          "id_str": "836629609739321345",
+          "text": "In hour 2, film producer Steven Barber talking about his latest project!  More at https://t.co/06XyyZQZrv. https://t.co/ruEEtLyx7K",
           "display_text_range": [
                0,
-               140
+               106
           ],
-          "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-          "truncated": true,
+          "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+          "truncated": false,
           "in_reply_to_status_id": null,
           "in_reply_to_status_id_str": null,
           "in_reply_to_user_id": null,
           "in_reply_to_user_id_str": null,
           "in_reply_to_screen_name": null,
           "user": {
-               "id": 720290462,
-               "id_str": "720290462",
-               "name": "Vinay Chaturvedi ☁",
-               "screen_name": "VINAY_SFDC",
-               "location": "Noida, India",
-               "url": "http://www.vinaychaturvedi.com",
-               "description": "@Salesforce MVP | 5*Certified | Blogger | @SFDC_UG_Noida & @SFDC4Students Leader | Principal Consultant @dazeworks | SFCommunity Profile - https://t.co/MTZq9Cwrya",
+               "id": 3063996106,
+               "id_str": "3063996106",
+               "name": "Eric Metaxas Show",
+               "screen_name": "EricMetaxasShow",
+               "location": "New York, NY",
+               "url": "http://metaxastalk.com",
+               "description": "Politics? Been there. Music? Done that. Filmmaking? Got you covered. It's the Show About Everything, airing 2-4pm Monday-Friday!",
                "protected": false,
                "verified": false,
-               "followers_count": 2996,
-               "friends_count": 1728,
-               "listed_count": 207,
-               "favourites_count": 7710,
-               "statuses_count": 6604,
-               "created_at": "Fri Jul 27 14:52:17 +0000 2012",
-               "utc_offset": -25200,
-               "time_zone": "Arizona",
+               "followers_count": 7763,
+               "friends_count": 2982,
+               "listed_count": 105,
+               "favourites_count": 2189,
+               "statuses_count": 4889,
+               "created_at": "Thu Feb 26 15:55:30 +0000 2015",
+               "utc_offset": -28800,
+               "time_zone": "Pacific Time (US & Canada)",
                "geo_enabled": true,
                "lang": "en",
                "contributors_enabled": false,
@@ -101,9 +101,9 @@
                "profile_sidebar_fill_color": "000000",
                "profile_text_color": "000000",
                "profile_use_background_image": false,
-               "profile_image_url": "http://pbs.twimg.com/profile_images/786893856881147906/38xcMQs4_normal.jpg",
-               "profile_image_url_https": "https://pbs.twimg.com/profile_images/786893856881147906/38xcMQs4_normal.jpg",
-               "profile_banner_url": "https://pbs.twimg.com/profile_banners/720290462/1477336124",
+               "profile_image_url": "http://pbs.twimg.com/profile_images/570975764292435968/XScfgNnW_normal.jpeg",
+               "profile_image_url_https": "https://pbs.twimg.com/profile_images/570975764292435968/XScfgNnW_normal.jpeg",
+               "profile_banner_url": "https://pbs.twimg.com/profile_banners/3063996106/1455731093",
                "default_profile": false,
                "default_profile_image": false,
                "following": null,
@@ -115,234 +115,101 @@
           "place": null,
           "contributors": null,
           "is_quote_status": false,
-          "extended_tweet": {
-               "full_text": "Looking forward to present at first event of Rajasthan #Salesforce User group.\nThanks @yogeshsfdc for the invite!\nhttps://t.co/nxkXvPw5n6 https://t.co/Jz1SkWeKRu",
-               "display_text_range": [
-                    0,
-                    137
-               ],
-               "entities": {
-                    "hashtags": [
-                         {
-                              "text": "Salesforce",
-                              "indices": [
-                                   55,
-                                   66
-                              ]
-                         }
-                    ],
-                    "urls": [
-                         {
-                              "url": "https://t.co/nxkXvPw5n6",
-                              "expanded_url": "http://events.salesforceusergroups.com/firstsalesforcerajasthanusergr",
-                              "display_url": "events.salesforceusergroups.com/firstsalesforc…",
-                              "indices": [
-                                   114,
-                                   137
-                              ]
-                         }
-                    ],
-                    "user_mentions": [
-                         {
-                              "screen_name": "yogeshsfdc",
-                              "name": "yogesh sharma",
-                              "id": 4766886272,
-                              "id_str": "4766886272",
-                              "indices": [
-                                   86,
-                                   97
-                              ]
-                         }
-                    ],
-                    "symbols": [],
-                    "media": [
-                         {
-                              "id": 835190406568534000,
-                              "id_str": "835190406568534016",
-                              "indices": [
-                                   138,
-                                   161
-                              ],
-                              "media_url": "http://pbs.twimg.com/media/C5cxP-9U4AAWAW6.jpg",
-                              "media_url_https": "https://pbs.twimg.com/media/C5cxP-9U4AAWAW6.jpg",
-                              "url": "https://t.co/Jz1SkWeKRu",
-                              "display_url": "pic.twitter.com/Jz1SkWeKRu",
-                              "expanded_url": "https://twitter.com/VINAY_SFDC/status/835190448826150912/photo/1",
-                              "type": "photo",
-                              "sizes": {
-                                   "small": {
-                                        "w": 595,
-                                        "h": 680,
-                                        "resize": "fit"
-                                   },
-                                   "thumb": {
-                                        "w": 150,
-                                        "h": 150,
-                                        "resize": "crop"
-                                   },
-                                   "medium": {
-                                        "w": 1040,
-                                        "h": 1189,
-                                        "resize": "fit"
-                                   },
-                                   "large": {
-                                        "w": 1040,
-                                        "h": 1189,
-                                        "resize": "fit"
-                                   }
-                              }
-                         },
-                         {
-                              "id": 835190422888599600,
-                              "id_str": "835190422888599552",
-                              "indices": [
-                                   138,
-                                   161
-                              ],
-                              "media_url": "http://pbs.twimg.com/media/C5cxQ7wVUAAlHt8.jpg",
-                              "media_url_https": "https://pbs.twimg.com/media/C5cxQ7wVUAAlHt8.jpg",
-                              "url": "https://t.co/Jz1SkWeKRu",
-                              "display_url": "pic.twitter.com/Jz1SkWeKRu",
-                              "expanded_url": "https://twitter.com/VINAY_SFDC/status/835190448826150912/photo/1",
-                              "type": "photo",
-                              "sizes": {
-                                   "small": {
-                                        "w": 434,
-                                        "h": 680,
-                                        "resize": "fit"
-                                   },
-                                   "large": {
-                                        "w": 1080,
-                                        "h": 1694,
-                                        "resize": "fit"
-                                   },
-                                   "thumb": {
-                                        "w": 150,
-                                        "h": 150,
-                                        "resize": "crop"
-                                   },
-                                   "medium": {
-                                        "w": 765,
-                                        "h": 1200,
-                                        "resize": "fit"
-                                   }
-                              }
-                         }
-                    ]
-               },
-               "extended_entities": {
-                    "media": [
-                         {
-                              "id": 835190406568534000,
-                              "id_str": "835190406568534016",
-                              "indices": [
-                                   138,
-                                   161
-                              ],
-                              "media_url": "http://pbs.twimg.com/media/C5cxP-9U4AAWAW6.jpg",
-                              "media_url_https": "https://pbs.twimg.com/media/C5cxP-9U4AAWAW6.jpg",
-                              "url": "https://t.co/Jz1SkWeKRu",
-                              "display_url": "pic.twitter.com/Jz1SkWeKRu",
-                              "expanded_url": "https://twitter.com/VINAY_SFDC/status/835190448826150912/photo/1",
-                              "type": "photo",
-                              "sizes": {
-                                   "small": {
-                                        "w": 595,
-                                        "h": 680,
-                                        "resize": "fit"
-                                   },
-                                   "thumb": {
-                                        "w": 150,
-                                        "h": 150,
-                                        "resize": "crop"
-                                   },
-                                   "medium": {
-                                        "w": 1040,
-                                        "h": 1189,
-                                        "resize": "fit"
-                                   },
-                                   "large": {
-                                        "w": 1040,
-                                        "h": 1189,
-                                        "resize": "fit"
-                                   }
-                              }
-                         },
-                         {
-                              "id": 835190422888599600,
-                              "id_str": "835190422888599552",
-                              "indices": [
-                                   138,
-                                   161
-                              ],
-                              "media_url": "http://pbs.twimg.com/media/C5cxQ7wVUAAlHt8.jpg",
-                              "media_url_https": "https://pbs.twimg.com/media/C5cxQ7wVUAAlHt8.jpg",
-                              "url": "https://t.co/Jz1SkWeKRu",
-                              "display_url": "pic.twitter.com/Jz1SkWeKRu",
-                              "expanded_url": "https://twitter.com/VINAY_SFDC/status/835190448826150912/photo/1",
-                              "type": "photo",
-                              "sizes": {
-                                   "small": {
-                                        "w": 434,
-                                        "h": 680,
-                                        "resize": "fit"
-                                   },
-                                   "large": {
-                                        "w": 1080,
-                                        "h": 1694,
-                                        "resize": "fit"
-                                   },
-                                   "thumb": {
-                                        "w": 150,
-                                        "h": 150,
-                                        "resize": "crop"
-                                   },
-                                   "medium": {
-                                        "w": 765,
-                                        "h": 1200,
-                                        "resize": "fit"
-                                   }
-                              }
-                         }
-                    ]
-               }
-          },
-          "retweet_count": 7,
-          "favorite_count": 10,
+          "retweet_count": 1,
+          "favorite_count": 1,
           "entities": {
-               "hashtags": [
-                    {
-                         "text": "Salesforce",
-                         "indices": [
-                              55,
-                              66
-                         ]
-                    }
-               ],
+               "hashtags": [],
                "urls": [
                     {
-                         "url": "https://t.co/2Sn1qkrTfq",
-                         "expanded_url": "https://twitter.com/i/web/status/835190448826150912",
-                         "display_url": "twitter.com/i/web/status/8…",
+                         "url": "https://t.co/06XyyZQZrv",
+                         "expanded_url": "http://WWW.VANILLAFIRE.COM",
+                         "display_url": "VANILLAFIRE.COM",
                          "indices": [
-                              115,
-                              138
+                              82,
+                              105
                          ]
                     }
                ],
-               "user_mentions": [
+               "user_mentions": [],
+               "symbols": [],
+               "media": [
                     {
-                         "screen_name": "yogeshsfdc",
-                         "name": "yogesh sharma",
-                         "id": 4766886272,
-                         "id_str": "4766886272",
+                         "id": 836629577766154200,
+                         "id_str": "836629577766154240",
                          "indices": [
-                              86,
-                              97
-                         ]
+                              107,
+                              130
+                         ],
+                         "media_url": "http://pbs.twimg.com/media/C5xOKxdWMAA8Y8g.jpg",
+                         "media_url_https": "https://pbs.twimg.com/media/C5xOKxdWMAA8Y8g.jpg",
+                         "url": "https://t.co/ruEEtLyx7K",
+                         "display_url": "pic.twitter.com/ruEEtLyx7K",
+                         "expanded_url": "https://twitter.com/EricMetaxasShow/status/836629609739321345/photo/1",
+                         "type": "photo",
+                         "sizes": {
+                              "large": {
+                                   "w": 480,
+                                   "h": 720,
+                                   "resize": "fit"
+                              },
+                              "thumb": {
+                                   "w": 150,
+                                   "h": 150,
+                                   "resize": "crop"
+                              },
+                              "medium": {
+                                   "w": 480,
+                                   "h": 720,
+                                   "resize": "fit"
+                              },
+                              "small": {
+                                   "w": 453,
+                                   "h": 680,
+                                   "resize": "fit"
+                              }
+                         }
                     }
-               ],
-               "symbols": []
+               ]
+          },
+          "extended_entities": {
+               "media": [
+                    {
+                         "id": 836629577766154200,
+                         "id_str": "836629577766154240",
+                         "indices": [
+                              107,
+                              130
+                         ],
+                         "media_url": "http://pbs.twimg.com/media/C5xOKxdWMAA8Y8g.jpg",
+                         "media_url_https": "https://pbs.twimg.com/media/C5xOKxdWMAA8Y8g.jpg",
+                         "url": "https://t.co/ruEEtLyx7K",
+                         "display_url": "pic.twitter.com/ruEEtLyx7K",
+                         "expanded_url": "https://twitter.com/EricMetaxasShow/status/836629609739321345/photo/1",
+                         "type": "photo",
+                         "sizes": {
+                              "large": {
+                                   "w": 480,
+                                   "h": 720,
+                                   "resize": "fit"
+                              },
+                              "thumb": {
+                                   "w": 150,
+                                   "h": 150,
+                                   "resize": "crop"
+                              },
+                              "medium": {
+                                   "w": 480,
+                                   "h": 720,
+                                   "resize": "fit"
+                              },
+                              "small": {
+                                   "w": 453,
+                                   "h": 680,
+                                   "resize": "fit"
+                              }
+                         }
+                    }
+               ]
           },
           "favorited": false,
           "retweeted": false,
@@ -354,44 +221,27 @@
      "retweet_count": 0,
      "favorite_count": 0,
      "entities": {
-          "hashtags": [
-               {
-                    "text": "Salesforce",
-                    "indices": [
-                         71,
-                         82
-                    ]
-               }
-          ],
+          "hashtags": [],
           "urls": [
                {
-                    "url": "",
-                    "expanded_url": null,
+                    "url": "https://t.co/06XyyZQZrv",
+                    "expanded_url": "http://WWW.VANILLAFIRE.COM",
+                    "display_url": "VANILLAFIRE.COM",
                     "indices": [
-                         131,
-                         131
+                         103,
+                         126
                     ]
                }
           ],
           "user_mentions": [
                {
-                    "screen_name": "VINAY_SFDC",
-                    "name": "Vinay Chaturvedi ☁",
-                    "id": 720290462,
-                    "id_str": "720290462",
+                    "screen_name": "EricMetaxasShow",
+                    "name": "Eric Metaxas Show",
+                    "id": 3063996106,
+                    "id_str": "3063996106",
                     "indices": [
                          3,
-                         14
-                    ]
-               },
-               {
-                    "screen_name": "yogeshsfdc",
-                    "name": "yogesh sharma",
-                    "id": 4766886272,
-                    "id_str": "4766886272",
-                    "indices": [
-                         102,
-                         113
+                         19
                     ]
                }
           ],
@@ -399,7 +249,8 @@
      },
      "favorited": false,
      "retweeted": false,
+     "possibly_sensitive": false,
      "filter_level": "low",
      "lang": "en",
-     "timestamp_ms": "1487986912540"
+     "timestamp_ms": "1488303780140"
 }
