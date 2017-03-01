@@ -23,7 +23,7 @@ function postTweet(tweet) {
 }
 
 function likeTweet(tweetId) {
-	client.post('favorites/create', tweetId, function(error, data, response) {
+	client.post('favorites/create', {id: tweetId}, function(error, data, response) {
 		if(error) {
 			console.log("Something went Wrong!" + error);
 		} else {
@@ -33,7 +33,7 @@ function likeTweet(tweetId) {
 }
 
 function befriendUser(userId) {
-	client.post('friendships/create', userId, function(error, data, response) {
+	client.post('friendships/create', {user_id: userId}, function(error, data, response) {
 		if(error) {
 			console.log("Something went Wrong!" + error);
 		} else {
