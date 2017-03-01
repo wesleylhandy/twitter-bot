@@ -99,6 +99,7 @@ stream.on('tweet', function (event) {
 
 		function send() {
 			likeTweet(target_id);
+			befriendUser(from);
 		}
 		delay = setTimeout(send, 4000);
 	}
