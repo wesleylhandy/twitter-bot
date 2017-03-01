@@ -1,4 +1,4 @@
-{
+[{
      "event": "favorite",
      "created_at": "Tue Feb 28 17:27:10 +0000 2017",
      "source": {
@@ -167,4 +167,4 @@
           "retweeted": false,
           "lang": "en"
      }
-}
+}]

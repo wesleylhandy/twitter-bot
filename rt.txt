@@ -1,4 +1,4 @@
-{
+[{
      "event": "retweeted_retweet",
      "created_at": "Tue Feb 28 16:11:07 +0000 2017",
      "source": {
@@ -432,4 +432,4 @@
           "possibly_sensitive": false,
           "lang": "en"
      }
-}
+}]
