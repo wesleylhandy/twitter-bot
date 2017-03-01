@@ -23,4 +23,10 @@ exports.twitterKeys = {
 
 ### What does it do?
 
-This bot is programmed to automatically tweet a thank you message to anyone who adds you as a follower (be sure to change your response message in the `bots.js` file), to automatically reply to any those who reply to one of your messages, or to automatically thank those who favorite one of your tweets. **TODO: add functionality for automatically thanking users for RTs, quotes or other mentions.**
+The bot listens to the Twitter Stream API for a given user. In response to mentions, quotes, retweets and favorites, this bot will respond accordingly.
+
+* For new 'Follow' events, the bot will tweet a kind thank you message to the new follower.
+* For mentions, the bot will "Favorite" the tweet with the mention and will follow the other user.
+* For 'Favorite' events, the bot will follow the other user.
+* For 'Quote' events, the bot will favorite the quoted tweet and add follow the other user.
+* For 'Retweet' events, the bot will favorite both the retweeted tweet and the original tweet and follow the other user.
