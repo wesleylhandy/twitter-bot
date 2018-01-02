@@ -78,7 +78,7 @@ ReplyMessages.prototype.shuffle = function() {
 }
 
 ReplyMessages.prototype.replyText = function() {
-    return this.queue[currentIndex]
+    return this.queue[this.currentIndex]
 }
 
 ReplyMessages.prototype.increment = function() {
