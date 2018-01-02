@@ -134,7 +134,7 @@ stream.on('tweet', function(event) {
     //do something if current user in mentioned
     if (replyto == myId || tweetText.includes("@WesleyLHandy")) {
 
-        const target_id = event.target_object.id_str;
+        const target_id = event.id;
 
         function send() {
             likeTweet(target_id);
