@@ -198,13 +198,13 @@ stream.on('retweeted_retweet', function(event) {
     const fromId = event.source.id_str;
     const retweeted_from = event.target.screen_name;
     const retweeted_object_id = event.target_object.id_str;
-    const retweeted_user = event.retweeted_status.user.screen_name;
+    const retweeted_user = event.retweeted_status.hasOwnProperty('user') ? event.retweeted_status.user.screen_name : event.target.screen_name;
     const original_target_id = event.retweeted_status.id_str;
 
     console.log(`Retweeted By ${from} on ${retweeted_object_id}`);
 
     //like the retweet and the original tweet then befriend user
-    if (target_user == myId && from != myId) {
+    if (retweeted_from == myId && from != myId) {
 
         function send() {
             likeTweet(retweeted_object_id);
