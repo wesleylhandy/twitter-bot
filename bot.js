@@ -118,6 +118,8 @@ stream.on('follow', function(event) {
         }
 
         delay = setTimeout(send, 4000);
+    } else {
+        console.log(`${myId} followed ${screen_name}`)
     }
 });
 
