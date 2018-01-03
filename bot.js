@@ -201,7 +201,7 @@ stream.on('retweeted_retweet', function(event) {
     const retweeted_from = event.target.screen_name;
     const retweeted_object_id = event.target_object.id_str;
     const retweeted_user = event.hasOwnProperty('retweeted_status') && event.retweeted_status.hasOwnProperty('user') ? event.retweeted_status.user.screen_name : null;
-    const original_target_id = event.retweeted_status.id_str;
+    const original_target_id = event.hasOwnProperty('retweeted_status') ? event.retweeted_status.id_str : null;
 
     console.log(`Retweeted By ${from} on ${retweeted_object_id}`);
 
@@ -210,8 +210,8 @@ stream.on('retweeted_retweet', function(event) {
 
         function send() {
             likeTweet(retweeted_object_id);
-            likeTweet(original_target_id);
             befriendUser(fromId);
+            if (original_target_id) likeTweet(original_target_id);
         }
         delay = setTimeout(send, 4000);
     }
