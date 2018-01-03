@@ -24,7 +24,7 @@ console.log('...listening, stalking, whatever, you be the judge...');
 function postTweet(tweet) {
     client.post('statuses/update', tweet, function(error, data, response) {
         if (error) {
-            console.error(`Something went Wrong! ${error}`);
+            console.error(`PostTweet Error: Something went Wrong! ${error}`);
         } else {
             console.log("Tweet Posted Successfully");
         }
@@ -34,7 +34,7 @@ function postTweet(tweet) {
 function likeTweet(tweetId) {
     client.post('favorites/create', { id: tweetId }, function(error, data, response) {
         if (error) {
-            console.error(`Something went Wrong! ${error}`);
+            console.error(`LikeTweet Error: Something went Wrong! ${error}`);
         } else {
             console.log("Favorite Added Successfully");
         }
@@ -44,7 +44,7 @@ function likeTweet(tweetId) {
 function befriendUser(userId) {
     client.post('friendships/create', { user_id: userId }, function(error, data, response) {
         if (error) {
-            console.error(`Something went Wrong! ${error}`);
+            console.error(`BefriendUser Error: Something went Wrong! ${error}`);
         } else {
             console.log("Friend Added Successfully");
         }
@@ -134,11 +134,11 @@ stream.on('tweet', function(event) {
     //do something if current user in mentioned
     if (replyto == myId || tweetText.includes("@WesleyLHandy")) {
 
-        const target_id = event.id;
+        const target_id = event.id_str;
 
         function send() {
             likeTweet(target_id);
-            befriendUser(from);
+            befriendUser(fromId);
         }
         delay = setTimeout(send, 4000);
     }
